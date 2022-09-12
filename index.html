@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SDK</title>
+  </head>
+  <body>
+    <h1>NFT Ticket Booking</h1>
+    <div id="Collection1155">
+      <h4>Create Event(Collection)</h4>
+      <input
+        type="text"
+        id="collection1155Uri"
+        required
+        placeholder="Enter Collection URI"
+      />
+      <input
+        type="text"
+        id="collection1155Description"
+        required
+        placeholder="Enter collection Description"
+      />
+      <input
+        type="number"
+        id="collection1155Royalties"
+        required
+        placeholder="Enter collection Royalties"
+      />
+
+      <button id="btnCreateCollection1155">Create Collection</button>
+    </div>
+
+    <div id="mintInCollection1155">
+      <h4>Mint Tickets(Tokens)</h4>
+      <input
+        type="text"
+        id="collection1155Address"
+        required
+        placeholder="Enter collection Address"
+      />
+      <input
+        type="text"
+        id="token1155Id"
+        required
+        placeholder="Enter TokenId"
+      />
+      <input
+        type="text"
+        id="token1155URI"
+        required
+        placeholder="Enter TokenURI"
+      />
+      <input
+        type="number"
+        id="numMintInCol1155Amount"
+        required
+        placeholder="Enter Amount of Tokens"
+      />
+
+      <button id="btnMintInCollection1155">Mint in collection</button>
+    </div>
+
+    <div id="sellInCollection1155">
+      <h4>Sell Tickets(Tokens)</h4>
+      <input
+        type="text"
+        id="sellCollection1155Address"
+        required
+        placeholder="Enter collection Address"
+      />
+      <input
+        type="number"
+        id="sell1155TokenId"
+        required
+        placeholder="Enter TokenId"
+      />
+      <input
+        type="number"
+        id="sell1155Price"
+        required
+        placeholder="Enter Price"
+      />
+      <input
+        type="number"
+        id="numSellInCol1155Amount"
+        required
+        placeholder="Enter Amount of Tokens"
+      />
+
+      <button id="btnSellInCollection1155">Sell in collection</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
