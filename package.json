@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "pandora-express": "^1.0.9"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
   }
 }
